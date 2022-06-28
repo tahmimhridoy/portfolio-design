@@ -20,6 +20,12 @@ p{
 .bg-sec{
     background-color: #f8f9fa;
 }
+
+.r-btn{
+    padding: 5px 20px;
+    background-color: #ee8683 !important;
+    color: #fff !important;
+}
 /* Navigation */
 
 nav.r-nav{
@@ -168,4 +174,23 @@ header{
     width: 40px;
     margin: 15px auto;
     background-color: #e65f78;
+}
+
+/* Testimony */
+
+.testimony-class .test-item{
+    max-width: 500px;
+    margin: 50px auto;
+}
+.testimony-class .test-item .test-img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+.testimony-class .test-item i{
+    color: gray;
+}
+
+.test-item p.test-name{
+    font-size: 13px;
 }

@@ -32,6 +32,12 @@ $(document).ready(function(){
         offset: '90%',
     })
 
-    
+    // Owl Carousel
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        items: 1,
+    });
 
 });
