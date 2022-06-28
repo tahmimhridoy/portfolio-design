@@ -13,10 +13,10 @@ p{
     line-height: 30px;
     color: #6c757d;
 }
-body{
-    background-color: #000;
+.r-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
-
 /* Navigation */
 
 nav.r-nav{
@@ -110,4 +110,23 @@ header{
 
 .content-box p{
     color: #fff;
+}
+
+/* About us */
+
+.about li a{
+    color: #000;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    transition: .5s all;
+}
+
+.about li a:hover{
+    color: #ee8683;
 }
