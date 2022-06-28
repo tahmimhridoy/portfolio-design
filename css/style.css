@@ -17,6 +17,9 @@ p{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+.bg-sec{
+    background-color: #f8f9fa;
+}
 /* Navigation */
 
 nav.r-nav{
@@ -129,4 +132,40 @@ header{
 
 .about li a:hover{
     color: #ee8683;
+}
+
+/* Experience */
+.exp-class .progress{
+    height: 12px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+.progress-bar{
+    background-color: #ee8683 !important;
+}
+.exp-class label{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+/* Services */
+.card{
+    padding: 20px 0px;
+}
+.card .card-header{
+    background-color: #f8f9fa !important;
+}
+.card-header{
+    border: none !important;
+}
+
+.services-class .card-header i{
+    font-size: 50px;
+}
+
+.service-border{
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    background-color: #e65f78;
 }
