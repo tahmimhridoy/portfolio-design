@@ -41,7 +41,7 @@ nav .navbar-brand{
 
 nav .navbar-nav li a{
     color: rgba(255, 255, 255, 0.8) !important;
-    font: 16px;
+    font-size: 16px;
     letter-spacing: 0.05em;
     font-weight: 600;
     font-family: 'Nunito', sans-serif;
@@ -193,4 +193,40 @@ header{
 
 .test-item p.test-name{
     font-size: 13px;
+}
+
+/* Testimony */
+
+.work .card-warpper{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Contact Section */
+
+.contact .r-icon{
+    font-size: 50px;
+    text-align: center;
+}
+/* Footer */
+
+footer{
+    height: 200px;
+    background-color: #333;
+}
+footer .r-icon a{
+    font-size: 20px;
+    color: #848484;
+    padding: 10px;
+    border: 1px solid #848484;
+    border-radius: 50%;
+}
+
+footer .r-icon a:hover{
+    border: 1px solid #eee;
+    color: #eee;
+    transition: 0.5 all;
+}
+.text-muted{
+    color: White;
 }

@@ -30,7 +30,11 @@ $(document).ready(function(){
             p[4].setAttribute("style", "width: 85%; transition: 2.3s all;")
         },
         offset: '90%',
-    })
+    });
+
+    var filterizd = $('.filter-container').filterizr({
+        animationDuration: .5,
+    });
 
     // Owl Carousel
     $(".owl-carousel").owlCarousel({
